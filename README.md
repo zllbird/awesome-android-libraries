@@ -1,6 +1,5 @@
 List of Android Libraries
 ======================
-![Project status](http://stillmaintained.com/wasabeef/awesome-android-libraries.png)
 
 This is an alphabetical list of libraries for Android development, the majority being actively maintained.
 
@@ -11,7 +10,6 @@ This is an alphabetical list of libraries for Android development, the majority 
 * [Image Loader](#image-loader)
 * [Drawable](#drawable)
 * [Dependency Injections](#dependency-injections)
-* [FRP](#frp)
 * [JSON](#json)
 * [O/R Mapping](#or-mapping)
 * [NoSQL](#nosql)
@@ -22,6 +20,8 @@ This is an alphabetical list of libraries for Android development, the majority 
 * [Video](#video)
 * [Parcelables](#parcelables)
 * [Functional Programming](#functional-programming)
+  * [Adding Java-8 Functional Programming Features](#adding-java-8-functional-programming-features)
+  * [Functional Reactive Programming](#functional-reactive-programming)
 * [Social Networks](#social-networks)
 * [WebRTC](#webrtc)
 * [Image Processing](#image-processing)
@@ -66,12 +66,6 @@ Name | Repository | License
 [RoboGuice](https://github.com/roboguice/roboguice) | https://github.com/roboguice/roboguice | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
 [Scopes](https://github.com/emmano/Scopes) | https://github.com/emmano/Scopes | [MIT](http://opensource.org/licenses/MIT)
 
-## FRP
-Name | Repository | License
---- | --- | --- | ---
-[RxAndroid](https://github.com/ReactiveX/RxAndroid) | https://github.com/ReactiveX/RxAndroid | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
-[RxJava](https://github.com/ReactiveX/RxJava) | https://github.com/ReactiveX/RxJava | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
-
 ## JSON 
 Name | Repository | License
 --- | --- | --- | ---
@@ -101,6 +95,7 @@ Name | Repository | License
 [Couchbase-Lite-Android](http://developer.couchbase.com/mobile/) | https://github.com/couchbase/couchbase-lite-android | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
 [Realm](http://realm.io/) | https://github.com/realm/realm-java | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
 [SimpleNoSQL](https://github.com/Jearil/SimpleNoSQL) | https://github.com/Jearil/SimpleNoSQL | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
+[RxSimpleNoSQL](https://github.com/xmartlabs/RxSimpleNoSQL) | https://github.com/xmartlabs/RxSimpleNoSQL | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
 [SnappyDB](http://www.snappydb.com/) | https://github.com/nhachicha/SnappyDB | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Pub/Sub
@@ -145,9 +140,17 @@ Name | Repository | License
 [Parceler](https://github.com/johncarl81/parceler) | https://github.com/johncarl81/parceler | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Functional Programming
+
+#### Adding Java-8 Functional Programming Features
 Name | Repository | License
 --- | --- | --- | ---
 [Retrolambda](https://github.com/orfjackal/retrolambda) | https://github.com/orfjackal/retrolambda | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
+
+#### Functional Reactive Programming
+Name | Repository | License
+--- | --- | --- | ---
+[RxAndroid](https://github.com/ReactiveX/RxAndroid) | https://github.com/ReactiveX/RxAndroid | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
+[RxJava](https://github.com/ReactiveX/RxJava) | https://github.com/ReactiveX/RxJava | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Social Networks
 Name | Repository | License
@@ -217,3 +220,4 @@ Name | Repository | License
 --- | --- | --- | ---
 [Joda Time Android](https://github.com/dlew/joda-time-android) | https://github.com/dlew/joda-time-android | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
 [Bolts](https://github.com/BoltsFramework/Bolts-Android) | https://github.com/BoltsFramework/Bolts-Android | [BSD](https://en.wikipedia.org/wiki/BSD_licenses)
+[Secure Preference Manager](http://prashantsolanki3.github.io/Secure-Pref-Manager/) | http://prashantsolanki3.github.io/Secure-Pref-Manager/ | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
